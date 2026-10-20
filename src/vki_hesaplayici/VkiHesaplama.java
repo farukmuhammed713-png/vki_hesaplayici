@@ -1,13 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package vki_hesaplayici;
 
-/**
- *
- * @author faruk
- */
+
 public class VkiHesaplama {
+    public double hesapla(double boyCm,double kilo){
+       double boyMetre=boyCm/100;
+            return kilo/(boyMetre*boyMetre);
+    }
+    
     
 }
